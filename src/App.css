@@ -1,0 +1,77 @@
+.App {
+  display: flex;
+  flex-direction: column;
+  text-align: center;
+}
+
+h1 {
+  border-radius: 5px;
+  background-color: #0d20ee3f;
+  padding: 5px;
+  box-shadow: 5px 5px 5px rgba(0, 0, 0, 0.416);
+  text-shadow: 5px 5px 5px rgba(0, 0, 0, 0.416);
+}
+
+.linha {
+  display: flex;
+}
+
+.Card {
+  flex: 1;
+  display: flex;
+  flex-direction: column;
+  margin: 5px;
+}
+
+.Card .Header {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-direction: column;
+  border-radius: 5px;
+  padding: 5px;
+  box-shadow: 5px 5px 5px rgba(0, 0, 0, 0.416);
+}
+.Card .Header .Title {
+  flex: 1;
+  padding: 5px;
+  border-radius: 5px;
+}
+
+.Card .Content {
+  padding: 20px;
+  box-shadow: 5px 5px 5px rgba(0, 0, 0, 0.416);
+  border-radius: 5px;
+}
+
+.Card.Red .Header {
+  background-color: #6c0505;
+}
+
+.Card.Red .Content {
+  background-color: #ca5151;
+}
+
+.Card.Green .Header {
+  background-color: #04421e;
+}
+
+.Card.Green .Content {
+  background-color: #76b791;
+}
+
+.Card.Blue .Header {
+  background-color: #491fe0;
+}
+
+.Card.Blue .Content {
+  background-color: #637fd8;
+}
+
+.Card.Purple .Header {
+  background-color: #500758;
+}
+
+.Card.Purple .Content {
+  background-color: #eb7eed;
+}
